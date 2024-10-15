@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <item type="id" name="nav_world" />
+        <item type="id" name="nav_usa" />
+        <item type="id" name="nav_canada" />
+        <item type="id" name="nav_uk" />
+        <item type="id" name="nav_australia" />
+
+</resources>

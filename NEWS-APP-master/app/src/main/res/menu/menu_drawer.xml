@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_world"
+        android:title="World News" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_region"
+            android:title="Regional News">
+            <!-- Submenu items -->
+            <menu>
+                <item
+                    android:id="@+id/nav_usa"
+                    android:title="USA" />
+                <item
+                    android:id="@+id/nav_canada"
+                    android:title="Canada" />
+                <item
+                    android:id="@+id/nav_uk"
+                    android:title="UK" />
+                <item
+                    android:id="@+id/nav_australia"
+                    android:title="Australia" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/group_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/setting"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/help"/>
+    </group>
+
+</menu>

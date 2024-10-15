@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FAST NEWS RN</string>
+    <string name="Profile">name\n</string>
+    <string name="profile_image">layout\n</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="welcome_to_fast_news_rn">WELCOME TO FAST NEWS RN</string>
+</resources>
